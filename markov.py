@@ -1,3 +1,4 @@
+# この行を追加した。バージョン2。
 import MeCab
 import os,json,random
 
@@ -10,7 +11,6 @@ def regist_dic(wordlist):
     w1 = ""
     w2 = ""
     
-    # 要素が3未満の場合は、何もしない
     if len(wordlist) < 3 : return
     
     for w in wordlist :
